@@ -79,13 +79,12 @@
         "suporte", "faq"
       ]
     }
-    
-    
-    
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "discord": "https://discord.gg/u3ZJAEPbx4",
+    "youtube": "https://www.youtube.com/c/WyzeHost",
+    "instagram": "https://www.instagram.com/wyze.host",
+    "facebook": "https://facebook.com/WyzeHost",
+    "twitter": "https://twitter.com/WyzeHost"
   }
 }
