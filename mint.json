@@ -25,6 +25,10 @@
     "name": "Area do cliente",
     "url": "https://financeiro.wyzehost.com.br/login"
   },
+  "primaryTab": {
+    "name": "Documentação"
+  },
+  "tabs": [],
   "anchors": [
     {
       "name": "Nosso Discord",
