@@ -44,11 +44,40 @@
   ],
   "navigation": [
     {
-      "group": "",
+      "group": "Bem-Vindo",
       "pages": [
         "introduction"
       ]
+    },
+    {
+      "group": "Painel de controle",
+      "pages": [
+        "painel/trocar-senha-vps", "painel/formatar-vps", "painel/upgrade-vps"
+      ]
+    },
+    {
+      "group": "Tutoriais",
+      "pages": [
+        {
+          "group": "Documentação VPS",
+          "pages": [ "vps/como-conectar-vps", "vps/como-conectar-vps-linux", "vps/como-conectar-vps-celular", "vps/como-fazer-teste-mtr", "vps/ativacao-windows", "vps/trocar-rdp" ]
+        },
+        {
+          "group": "Domínio",
+          "pages": [ "dominio/apontar-dominio", "dominio/redirecionamento-fivem" ]
+        }
+        
+      ]
+    },
+    {
+      "group": "Empresa",
+      "pages": [
+        "suporte", "faq"
+      ]
     }
+    
+    
+    
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",

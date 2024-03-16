@@ -1,0 +1,63 @@
+---
+title: Como redirecionar o seu domínio para seu servidor
+description: 'Neste tutorial, mostraremos como redirecionar o seu domínio para o seu servidor.'
+---
+
+## Configurando o DNS
+1. Entre na sua conta da [Cloudflare](https://dash.cloudflare.com/login).
+2. Procure pela aba **DNS** e selecione.
+
+<img
+  className="block"
+  src="/images/servidor.png"
+  alt="CloudFlare"
+/>
+
+## Criando registro
+1. Será necessário criar dois registro, o primeiro tipo **A** e o segundo tipo **SRV**.
+2. Em nosso exemplo, iremos configurar o domínio **jogar.fivembr.com** para conectar no servidor.
+3. Para começar clique em **adicionar registro**.
+
+<img
+  className="block"
+  src="/images/servidor2.png"
+  alt="CloudFlare"
+/>
+
+<Note>
+**Domínio:** é o nome de identificação de um site na internet, por exemplo, fivembr.com. <br/>
+**Subdomínio:** é um endereço que faz parte do domínio, ou seja, é uma ramificação do domínio, por exemplo: jogar.fivembr.com
+</Note>
+
+## Registro tipo A
+1. Na caixa **nome**, você pode inserir o nome desejado para o subdomínio, no nosso caso **jogar**.
+2. Na caixa **endereço IPv4**, insira o IP do seu vps.
+3. Pronto, basta clicar em salvar.
+
+<img
+  className="block"
+  src="/images/servidor3.png"
+  alt="CloudFlare"
+/>
+
+<Note>
+Se você quiser colocar apenas o seu domínio para o jogador conectar, em **nome** basta adicionar @, que a Cloudflare irá reconhecer somente o domínio. 
+</Note>
+
+## Registro tipo SRV
+1. No campo **nome**, você irá colocar **_cfx._udp** + o **subdominio** que você adicionou no registro tipo A, no nosso exemplo vai ficar **_cfx._udp.jogar**.
+2. Em **priority** e **weight** basta adicionar o número 1 em ambos.
+3. Na caixa **porta**, informe a porta do seu servidor.
+4. Na aba **target** você irá precisar colocar o domínio que o jogador vai conectar. Como estamos configurando com o subdomínio jogar, ficaria da seguinte forma: **jogar.fivembr.com**.
+
+<img
+  className="block"
+  src="/images/servidor4.png"
+  alt="CloudFlare"
+/>
+
+<Check>
+Se você tiver qualquer dúvida, entre em contato com a nossa equipe de suporte
+em nosso [WhatsApp](https://wa.me/5511912842643) 
+e [Discord](https://discord.com/invite/x3qFazUTZ7).
+</Check>
