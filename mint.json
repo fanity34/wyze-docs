@@ -64,11 +64,15 @@
       "pages": [
         {
           "group": "Documentação VPS",
-          "pages": [ "vps/como-conectar-vps", "vps/como-conectar-vps-linux", "vps/como-conectar-vps-celular", "vps/como-fazer-teste-mtr", "vps/ativacao-windows", "vps/trocar-rdp" ]
+          "pages": [ "vps/como-conectar-vps", "vps/como-conectar-vps-linux", "vps/como-conectar-vps-celular", "vps/como-conectar-filezilla", "vps/como-fazer-teste-mtr", "vps/ativacao-windows", "vps/trocar-rdp" ]
         },
         {
           "group": "Domínio",
           "pages": [ "dominio/apontar-dominio", "dominio/redirecionamento-fivem" ]
+        },
+        {
+          "group": "Fivem",
+          "pages": [ "fivem/criar-key-fivem", "fivem/como-fazer-backup-banco-de-dados" ]
         }
         
       ]
