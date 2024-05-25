@@ -64,7 +64,7 @@
       "pages": [
         {
           "group": "Documentação VPS",
-          "pages": [ "vps/como-conectar-vps", "vps/como-conectar-vps-linux", "vps/como-conectar-vps-celular", "vps/como-conectar-filezilla", "vps/como-fazer-teste-mtr", "vps/ativacao-windows", "vps/trocar-rdp" ]
+          "pages": [ "vps/como-conectar-vps", "vps/como-conectar-vps-linux", "vps/como-conectar-vps-celular", "vps/como-conectar-filezilla", "vps/como-fazer-teste-mtr", "vps/ativacao-windows", "vps/trocar-rdp","vps/erro-interno" ]
         },
         {
           "group": "Domínio",
