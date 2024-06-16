@@ -72,7 +72,7 @@
         },
         {
           "group": "Fivem",
-          "pages": [ "fivem/criar-key-fivem", "fivem/como-fazer-backup-banco-de-dados" ]
+          "pages": [ "fivem/como-iniciar-sua-base-no-vps", "fivem/criar-key-fivem", "fivem/como-fazer-backup-banco-de-dados" ]
         }
         
       ]
