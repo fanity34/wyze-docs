@@ -29,10 +29,7 @@
   "primaryTab": {
     "name": "Documentação"
   },
-  "tabs": [{
-    "name": "Content",
-    "url": "content"
-  }],
+  "tabs": [],
   "anchors": [
     {
       "name": "Nosso Discord",
@@ -74,12 +71,6 @@
       "group": "Empresa",
       "pages": [
         "suporte", "faq"
-      ]
-    },
-    {
-      "group": "Content",
-      "pages": [
-        "content/teste"
       ]
     }
   ],
