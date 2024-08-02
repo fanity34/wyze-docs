@@ -1,0 +1,52 @@
+---
+title: Como resolver o problema do erro interno
+description: 'Neste guia, mostraremos como resolver o problema do erro interno no seu vps.'
+---
+## Erro interno
+O erro interno geralmente está relacionado ao número de conexões pendentes no VPS. Existe um tipo de ataque conhecido como **force RDP**, que consiste em um bot que tenta se conectar repetidamente ao servidor, tentando adivinhar a senha da máquina.
+
+<img
+  className="block"
+  src="/images/erro-interno.png"
+  alt="Erro interno"
+/>
+
+## Como resolver o `Erro interno`
+1. Primeiro, você deve estabelecer uma conexão com o seu VPS.
+2. Para se conectar, você pode tentar forçar a conexão (**conectar repetidamente até conseguir**) ou utilizar o VNC disponível no painel do nosso site.
+3. Com acesso, você pode aumentar o número de conexões pendentes para evitar o erro interno ou alterar a porta da conexão remota (**RDP**).
+
+<Warning>
+Lembre-se de definir uma senha forte para o seu VPS, utilizando uma combinação de caracteres especiais, letras maiúsculas, minúsculas e números. 
+</Warning>
+
+## Aumentando a quantidade de conexões
+1. Abra o cmd do seu VPS.
+2. Execute o comando: ``REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server" /v MaxOutstandingConnections /t REG_DWORD /d 1000``
+
+<img
+  className="block"
+  src="/images/cmd-vps.png"
+  alt="Executando o comando no CMD"
+/>
+
+<Note>
+Onde está o número 1000, é a quantidade de conexões pendentes disponiveis.
+</Note>
+
+## Alterando a porta RDP
+Para alterar a porta RDP do seu VPS, não será mais possivel conectar utilizando somente o IP, será necessário utilizar o IP e a porta.
+
+  <Card
+    title="Como trocar a porta RDP"
+    icon="download"
+    href="/vps/trocar-rdp"
+  >
+    Altere a porta RDP do seu servidor em poucos cliques.
+  </Card>
+
+<Check>
+Se você tiver qualquer dúvida, entre em contato com a nossa equipe de suporte
+em nosso [WhatsApp](https://wa.me/5511912842643) 
+e [Discord](https://discord.com/invite/x3qFazUTZ7).
+</Check>
